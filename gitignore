@@ -1,0 +1,45 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Course/submission files
+*.docx
+*.pptx
+
+# Data files (large or raw) — keep small samples only
+*.xlsx
+# Uncomment below if datasets are too large for GitHub (>50MB)
+# data/
+
+# Model weights (can be large — host on HuggingFace or Google Drive instead)
+*.pt
+*.pth
+*.h5
+*.pkl
+*.joblib
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
